@@ -1,0 +1,18 @@
+1. Ingestion
+Amazon Kinesis
+AWS Glue
+AWS Streaming for Kafka
+AWS DB Migration Service
+AWS DataSync
+AWS Transfer for SFTP
+
+2. Store and processings
+S3
+EMR
+Glue
+Elastisearch
+3. Serving
+Quicksight
+Sagemaker
+RDS
+Athena

@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: AWS Training
+Resources:
+  GlueDB:
+    Type: AWS::Glue::Database
+    Properties:
+      DatabaseInput:
+        Name: ghcnlab
+      CatalogId: !Ref AWS::AccountId
+  allyears:
+    Type: AWS::Glue::Table
+    Properties:
+      TableInput:
+        Name: allyears
+        Description: "Observations for all stations, years and elements"
+      DatabaseName: !Ref GlueDB
+      CatalogId: !Ref AWS::AccountId
