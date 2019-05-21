@@ -8,6 +8,11 @@ sh deploy.sh
 
 ```
 
+If you want to modify the CFN then once modified run:
+```
+sh update.sh
+```
+
 
 ### Templates ###
 cfn/database.cfn.yaml: Creates databsae and initial table
